@@ -67,6 +67,10 @@
 ### Cloud Shell
 
 - To get all availble regions ```gcloud compute regions list```
+- To get instance list ```gcloud compute instance list```
+- Can inject some data in instance by using ```gcloud compute ssh instance-1 --zone asia-south1-a```
+- ssh stands for secure shell enables computer to communication here it help to communication multiple VMs.
+- Update ```sudo apt-get update```
 
 ### Google App Engine
 
