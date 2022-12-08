@@ -94,3 +94,30 @@
 - Support JavaScript, Python3, and Go
 - GCP events Fire a cloud functions through trigger
 - Trigger connects the event to funciton
+
+### Why do we need GCP Storage?
+
+- To make it persistent and durable
+- Storage services are classified in three types-: 
+  - Object Storage
+  - Block Sotrage
+  - File system
+- Unified storage for variety of application
+- 99.99% durability.
+- Data can be stored in one region or multiple region
+- Storage class
+  - High frequency Access(standard most common storage class used by developer optimized for reduce latency.)
+  - Low Frequency Access(Nearline meant for data access less frequently)
+  - Lowest frequency access(Coldline data access in a year)
+  
+### Persistent Disks
+
+- Disk are Independent of Compute Engine VMs.
+- max 64TB.
+- Work like pubsub
+- SSD and HDD
+- PD available in three storage types-:
+  - Zonal
+  - Regional
+  - Local
+  
