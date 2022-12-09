@@ -129,3 +129,27 @@
 ### Google bucket
 
 - You store objects in containers called buckets. All buckets are associated with a project, and you can group your projects under an organization. Each project, bucket, and object in Google Cloud is a resource in Google Cloud, as are things such as Compute Engine instances.
+
+### GCP Network Service Tiers
+
+- Traffic optimization
+- Two service tiers-:
+  - Premimum Tier(default one here traffic via google premium backbone)
+  - Standard Tier(Connectivity based on ISP networks)
+ 
+### Load balancer 
+
+- help to distributes traffic in multple GCE Vms in a region or multiple region
+- Two types of load balancer-:  
+  - HTTP(s) load balancer (Global load balancing)
+  - Network Load balancer(Regional TCP and UDP traffic)
+
+### Virtual Private Cloud(VPC)
+
+- Provide private networking VMs
+- Subnets are part of large network it means sub networking
+- Each VPC is logivally isolated
+- Protected by Firewall
+- VPC network can be connected to each other via VPC Peering.
+- 
+  
