@@ -164,3 +164,19 @@
   - roles/pubsub.publisher
   - roles/compute.admin
   - roles/storage.objectAdmin 
+
+### Google cloud sql
+
+- No need of VMs managed rdbms
+- Three types of RDBMS
+  - MySql
+  - PostgreSql
+  - Microsoft Sql server
+- Google cloud dataproc(use to work with apache spark and hive like tool)
+- Google cloud datalab(It is use for analysis and visualization support python, sql, javascript)
+
+### BigQuery
+
+- It is use to deal with analysis job
+- Datawarehouse purpose
+- Query large dataset in ANSI SQL.
