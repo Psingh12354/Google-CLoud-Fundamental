@@ -151,5 +151,16 @@
 - Each VPC is logivally isolated
 - Protected by Firewall
 - VPC network can be connected to each other via VPC Peering.
-- 
-  
+
+### IAM
+
+- Who(Identify) has what access(Role) for which resource.
+- least privilege
+- Primitive roles-:
+  - Owner(100%)
+  - Editor(who can view and edit)
+  - Viewer(oly view)
+- Predefined roles
+  - roles/pubsub.publisher
+  - roles/compute.admin
+  - roles/storage.objectAdmin 
